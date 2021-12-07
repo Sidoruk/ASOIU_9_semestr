@@ -35,3 +35,24 @@ void __fastcall TMainForm::deleteBtnClick(TObject *Sender)
 }
 //---------------------------------------------------------------------------
 
+void __fastcall TMainForm::FilterBtnClick(TObject *Sender)
+{
+     if(!FilterEdit->Text.IsEmpty()){
+         TClient->Filtered=false;
+         TClient->Filter="NameClient LIKE '"+FilterEdit->Text+"%'";
+         TClient->Filtered=true;
+     }else{
+         TClient->Filtered=false;
+         TClient->Filter="";
+         TClient->Filtered=true;
+     }
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TMainForm::CancelFilterBtnClick(TObject *Sender)
+{
+     FilterEdit->Text="";
+     TClient->Filtered=false;
+}
+//---------------------------------------------------------------------------
+

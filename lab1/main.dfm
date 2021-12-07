@@ -2,8 +2,8 @@ object MainForm: TMainForm
   Left = 0
   Top = 0
   Caption = 'MainForm'
-  ClientHeight = 427
-  ClientWidth = 692
+  ClientHeight = 358
+  ClientWidth = 664
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -14,11 +14,18 @@ object MainForm: TMainForm
   Position = poDesigned
   PixelsPerInch = 96
   TextHeight = 13
+  object Label1: TLabel
+    Left = 184
+    Top = 31
+    Width = 82
+    Height = 31
+    Caption = 'Filter by name:'
+  end
   object ClientGrid: TDBGrid
     Left = 8
-    Top = 64
+    Top = 68
     Width = 601
-    Height = 153
+    Height = 177
     DataSource = DClient
     TabOrder = 0
     TitleFont.Charset = DEFAULT_CHARSET
@@ -54,8 +61,8 @@ object MainForm: TMainForm
       end>
   end
   object addClientBtn: TButton
-    Left = 56
-    Top = 240
+    Left = 40
+    Top = 251
     Width = 75
     Height = 25
     Caption = 'Add client'
@@ -63,13 +70,47 @@ object MainForm: TMainForm
     OnClick = addClientBtnClick
   end
   object deleteBtn: TButton
-    Left = 168
-    Top = 240
+    Left = 144
+    Top = 251
     Width = 75
     Height = 25
     Caption = 'Delete client'
     TabOrder = 2
     OnClick = DeleteBtnClick
+  end
+  object Edit1: TEdit
+    Left = 104
+    Top = 224
+    Width = 1
+    Height = 21
+    TabOrder = 3
+    Text = 'Edit1'
+  end
+  object FilterEdit: TEdit
+    Left = 272
+    Top = 28
+    Width = 153
+    Height = 25
+    Hint = 'enter filter'
+    TabOrder = 4
+  end
+  object FilterBtn: TButton
+    Left = 439
+    Top = 26
+    Width = 75
+    Height = 25
+    Caption = 'Search'
+    TabOrder = 5
+    OnClick = FilterBtnClick
+  end
+  object CancelFilterBtn: TButton
+    Left = 534
+    Top = 26
+    Width = 75
+    Height = 25
+    Caption = 'Clear filter'
+    TabOrder = 6
+    OnClick = CancelFilterBtnClick
   end
   object ADOConnection1: TADOConnection
     Connected = True
@@ -77,8 +118,8 @@ object MainForm: TMainForm
       'Provider=MSDASQL.1;Persist Security Info=False;User ID=root;Exte' +
       'nded Properties="DSN=MySQL ASOIU;SERVER=localhost;UID=root;DATAB' +
       'ASE=asoiu;PORT=3306";Initial Catalog=asoiu'
-    Left = 16
-    Top = 16
+    Left = 32
+    Top = 136
   end
   object TClient: TADOTable
     Active = True
@@ -87,11 +128,11 @@ object MainForm: TMainForm
     IndexFieldNames = 'idClient'
     TableName = 'client'
     Left = 80
-    Top = 16
+    Top = 136
   end
   object DClient: TDataSource
     DataSet = TClient
-    Left = 144
-    Top = 16
+    Left = 128
+    Top = 136
   end
 end
