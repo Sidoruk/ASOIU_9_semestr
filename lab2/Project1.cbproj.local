@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.443,C:\Users\sidor\Documents\Embarcadero\Studio\Projects\addClient.h=C:\Users\sidor\Documents\Embarcadero\Studio\Projects\Unit2.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.113,C:\Users\sidor\Documents\Embarcadero\Studio\Projects\main.cpp=C:\Users\sidor\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.113,C:\Users\sidor\Documents\Embarcadero\Studio\Projects\main.dfm=C:\Users\sidor\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.443,C:\Users\sidor\Documents\Embarcadero\Studio\Projects\addClient.cpp=C:\Users\sidor\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.994,=C:\Users\sidor\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.803,=C:\Users\sidor\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.004,=C:\Users\sidor\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.443,C:\Users\sidor\Documents\Embarcadero\Studio\Projects\addClient.dfm=C:\Users\sidor\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.628,C:\Users\sidor\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\sidor\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.113,C:\Users\sidor\Documents\Embarcadero\Studio\Projects\main.h=C:\Users\sidor\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>2021.12.08 01:52:18.244,=C:\Users\sidor\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2021.12.08 01:54:02.469,C:\Users\sidor\Documents\Embarcadero\Studio\Projects\addDish.cpp=C:\Users\sidor\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2021.12.08 01:54:02.469,C:\Users\sidor\Documents\Embarcadero\Studio\Projects\addDish.h=C:\Users\sidor\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>2021.12.08 01:54:02.469,C:\Users\sidor\Documents\Embarcadero\Studio\Projects\addDish.dfm=C:\Users\sidor\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021.12.08 03:16:42.265,=C:\Users\sidor\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2021.12.08 03:20:34.924,C:\Users\sidor\Documents\Embarcadero\Studio\Projects\addZakaz.h=C:\Users\sidor\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>2021.12.08 03:20:34.924,C:\Users\sidor\Documents\Embarcadero\Studio\Projects\addZakaz.dfm=C:\Users\sidor\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021.12.08 03:20:34.924,C:\Users\sidor\Documents\Embarcadero\Studio\Projects\addZakaz.cpp=C:\Users\sidor\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+  </Transactions>
+</BorlandProject>
